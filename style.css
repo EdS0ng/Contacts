@@ -1,8 +1,10 @@
 .addContacts{
   position: fixed;
-  top:1%;
+  top:3%;
   right:3%;
   font-size:3vw;
+  z-index: 1;
+  background-color: rgb(82,199,82);
 }
 #clone{
   display:none;
@@ -12,10 +14,12 @@ ul{
 }
 h1{
   font-size: 5vw;
+  font-weight: bold;
 }
 td{
   font-size: 2vw;
+  text-align: center;
 }
 .edit,.remove{
-  margin:0px 1vw;
+  margin:0px 1.5vw;
 }

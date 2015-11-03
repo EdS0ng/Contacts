@@ -68,7 +68,7 @@
 
   function initializeList(){
     infoObjectArray.forEach(function(row){
-      $('tbody').append(row);
+      $('tbody').prepend(row);
       $('[data-toggle="popover"]').popover({
         title: "Contact Info",
         html:true,
