@@ -1,0 +1,21 @@
+.addContacts{
+  position: fixed;
+  top:1%;
+  right:3%;
+  font-size:3vw;
+}
+#clone{
+  display:none;
+}
+ul{
+  list-style-type:none;
+}
+h1{
+  font-size: 5vw;
+}
+td{
+  font-size: 2vw;
+}
+.edit,.remove{
+  margin:0px 1vw;
+}
